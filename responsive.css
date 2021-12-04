@@ -1,0 +1,45 @@
+/* Table */
+@media screen and (min-width: 740px) and  (max-width:1024px)
+{   
+
+}
+/* Mobile */
+@media screen and (max-width:740px)
+{   
+#nav{
+    display:block;
+}
+#nav>li{
+    display:block;
+}
+#nav li:first-child{
+    display: inline-block;
+}
+.search-button{
+    display: none;
+}
+#header .menu-button{
+    display:inline-block;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+#content .item-list{
+    width:100% !important; 
+    margin-top:30px;
+}
+#content .item-list img{
+    width:60% ;
+}
+#content .Place-item
+{
+    width: 100%;
+    margin-top: 16px;;
+}
+#content .col-half{
+    width:100% !important;
+}
+.form{
+    margin-top: 16px ;
+}
+}
